@@ -30,8 +30,11 @@
     .row-productDetail {
         background-color: #F9F9F9;
         justify-content: center;
+        width: 100%;
     }
 
     .card-productDetail {
         width: 70%;
+        margin-bottom: 150px;
     }
+    /* -------End Product Detail Page------------- */
