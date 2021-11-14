@@ -4,21 +4,28 @@ import React from 'react'
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import Cart from '../svg/shopping-cart-solid.svg';
 import { Link } from 'react-router-dom';
+import HomepageScreen from './HomepageScreen';
 
 const NavBarPage = () => {
     return (
-        <div>
-            <Navbar >
+        <>
+            <Navbar className="shadow-sm">
                 <Navbar.Brand href="#">
                     <img src={ailogo} width="50" height="50" />{' '}
                 </Navbar.Brand>
 
                 <Container className="justify-content-center">
-                    <Nav.Link href="#">
+                    <Nav.Link href="#HomepageScreen">
                         HOME
                     </Nav.Link>
                     <Nav.Link href="#">
-                        PRODUCTS
+                        PRODUCT
+                    </Nav.Link>
+                    <Nav.Link href="#">
+                        CONTACT
+                    </Nav.Link>
+                    <Nav.Link href="#">
+                        ABOUT
                     </Nav.Link>
                 </Container>
         
@@ -41,7 +48,7 @@ const NavBarPage = () => {
                     </Nav.Link>
                 </Navbar.Collapse> 
             </Navbar>
-        </div>
+        </>
     )
 }
 

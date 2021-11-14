@@ -26,6 +26,24 @@
   }
    /* -------End Sign In Page------------- */
 
+    /* -------Homepage------------- */
+    .row-homepage {
+      background-color: white;
+      justify-content: center;
+      width: 100%;
+  }
+
+  .card-homepage {
+      width: 80%;
+      margin-bottom: 150px;
+  }
+
+  .card-prod {
+    margin: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
+  }
+  /* -------End Homepage------------- */
+
     /* -------Product Detail Page------------- */
     .row-productDetail {
         background-color: #F9F9F9;
@@ -38,3 +56,157 @@
         margin-bottom: 150px;
     }
     /* -------End Product Detail Page------------- */
+
+
+    /* -------ADMIN PAGE------------- */
+
+    /* -------Admin Sign In------------- */
+    .bg-Asignin {
+      background-color: #e7e6e6;
+      width: 100%;
+      margin: 0;
+      justify-content: center;
+  }
+
+  .card-Asignin {
+      width: 30%;
+      margin: 15%;
+  }
+  /* -------End Admin Sign In------------- */
+
+  /* -------Admin Homepage------------- */
+  .bg-Ahomepage {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+  .test2 {
+    width: auto;
+}
+
+  .test3 {
+    white-space: nowrap;
+    border-top-right-radius:0;
+}
+
+  .Asidepanel {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* -------End Admin Homepage------------- */
+
+  /* -------Add Product------------- */
+  .bg-Aadd {
+    background-color: #e7e6e6;
+    justify-content: center; 
+}
+
+.card-Add {
+    width: 50%;
+    margin: 5%;
+}
+/* -------End Add Product------------- */
+
+/* -------List Product------------- */
+.bg-Alist {
+  background-color: #e7e6e6;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+.table-Alist {
+  background-color: white;
+  width: 90%;
+  margin: 50px;
+}
+
+.p-view, .p-edit, .p-del {
+  width: 50%;
+  margin: 5px;
+}
+/* -------End List Product------------- */
+
+ /* -------END ADMIN PAGE------------- */
+
+
+
+
+
+    
+    /* * {
+        box-sizing: border-box;
+        padding: 0rem;
+        margin: 0rem;
+      }
+      
+      .main-comp {
+        background-color: #ffcb65;
+      }
+      
+      .title-filter {
+        color: lemonchiffon;
+      }
+      
+      .title-product {
+        color: #773200;
+      }
+      
+      .filter-comp {
+        background-color: #c76607;
+        position: sticky;
+      }
+      
+      .filter-sub-comp {
+        background-color: #ffcb65;
+        color: #773200;
+        border-radius: 0.3rem;
+        filter: drop-shadow(6px 6px 3px rgba(141, 91, 62, 0.5));
+      }
+      
+      .filter-list {
+        background-color: #c76607;
+        color: lemonchiffon;
+        padding: 0.3rem;
+        margin-bottom: 0.4rem;
+        border-radius: 0.3rem;
+        filter: drop-shadow(6px 6px 3px rgba(141, 91, 62, 0.5));
+      }
+      
+      .filter-checkbox {
+        border: none;
+      }
+      
+      .filter-name {
+        margin-left: 0.5rem;
+      }
+      
+      .sub-product-comp {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      
+      img {
+        border-radius: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+      
+      img.medium {
+        max-width: 15rem;
+        width: 100%;
+      }
+      
+      .card {
+        border: 1px solid #c4c4c4;
+        padding: 0.5rem;
+        margin-bottom: 0.8rem;
+        filter: drop-shadow(6px 6px 5px rgba(141, 91, 62, 0.5));
+      }
+      
+      .card-body > * {
+        margin-bottom: 0.5rem;
+      } */
